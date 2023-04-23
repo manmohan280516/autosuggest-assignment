@@ -1,0 +1,9 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 7;
+  background-color: rgba(32, 38, 74, 0.85);
+  height: 60px;
+  border-bottom: 1px solid #d6d6d6;
+}

@@ -1,0 +1,46 @@
+.detailsWrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.detailsOuter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.detailsCard {
+  position: relative;
+  background-color: var(--color-grey-primary);
+  margin: 1rem;
+  flex: 1 0 25rem;
+  max-width: 30rem;
+  max-height: 30rem;
+  transition: 0.2s;
+}
+
+.detailsCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.detailsImage {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.detailsContent {
+  margin: 2rem;
+}
+
+.detailsTitle {
+  font-size: 1.5rem;
+}
+
+.detailsDesc {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
